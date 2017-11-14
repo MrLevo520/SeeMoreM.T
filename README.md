@@ -14,8 +14,8 @@
 
 ### 目前资源
 
-- 1. http://m.mei123478.com/
-- 待定
+-【1】http://m.mei123478.com/
+- 待定，如有好的公共号可以提供给我，进行资源整合
 
 
 
@@ -39,8 +39,7 @@
 ### To Do
 
 - 网页解析部分
-    - [x] TV show（韩剧，单剧非剧集连载部分） 网盘与密码解析完成  
-            - [x]  [// Done 2017.11.15]()
+    - [x] TV show（韩剧，单剧非剧集连载部分） 网盘与密码解析完成 [// Done 2017.11.15](https://github.com/MrLevo520/SeeMoreM.T/blob/master/CodesModule/getUrlPw.py)
     - [ ] 美剧，英剧等多剧集连载部分网盘与密码解析完成
     - [ ] 未知剧种类 网盘与密码解析完成
     - [ ] what's more？
@@ -65,15 +64,8 @@
 
 - 修复各种乱七八糟的bugs
 
-  - [x] selenium 获取不到指定标签下的文本 
-
-        - [x]   [// Done 2017.11.15]() 
-
+  - [x] selenium 获取不到指定标签下的文本 [// Done 2017.11.15](https://github.com/MrLevo520/SeeMoreM.T/blob/master/CodesModule/getUrlPw.py) 
   - [ ] what's more？
-
-        ​
-
-        ​
 
 ### 最后
 
