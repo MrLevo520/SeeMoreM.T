@@ -39,6 +39,6 @@ def getUP(searchKey):
     return url, password
 
 if __name__ == '__main__':
-    url, password = meiShare(u'今生是第一次')
+    url, password = getUP(u'今生是第一次')
     print url, password
 
