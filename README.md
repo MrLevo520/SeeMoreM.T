@@ -40,7 +40,7 @@
 
 - 网页解析部分
     - [x]  TV show（韩剧，单剧非剧集连载部分） 网盘与密码解析完成 [// Done 2017.11.15](https://github.com/MrLevo520/SeeMoreM.T/blob/master/CodesModule/getUrlPw.py)
-    - [ ] 美剧，英剧等多剧集连载部分网盘与密码解析完成
+    - [x] 美剧，英剧等多剧集连载部分网盘与密码解析完成[// Done 2017.11.17](https://github.com/MrLevo520/SeeMoreM.T/blob/master/CodesModule/getUrlPw.py)
     - [ ] 未知剧种类 网盘与密码解析完成
     - [ ] what's more？
 
@@ -64,17 +64,20 @@
 
 - 修复各种乱七八糟的bugs
 
-  - [x] selenium 获取不到指定标签下的文本 [// Done 2017.11.15](https://github.com/MrLevo520/SeeMoreM.T/blob/master/CodesModule/getUrlPw.py) 
+  - [x] selenium 获取不到指定标签下的文本 [// Done 2017.11.15](https://github.com/MrLevo520/SeeMoreM.T/blob/master/CodesModule/getUrlPw.py)
+  - [ ] 查询时并非跳转页面后的首选项是目标文件，需要改进查询精确匹配
   - [ ] what's more？
 
 
 ### Update
 
 - 第一次更新：2017.11.15
+- 第二次更新：2017.11.17
+
 
 ### 最后
 
-**希望能早点睡觉啊！Launch Day 2017.11.15 02:15 **
+> 希望能早点睡觉啊！Launch Day 2017.11.15 02:15 
 
 
 
