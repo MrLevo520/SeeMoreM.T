@@ -41,7 +41,7 @@
 - 网页解析部分
     - [x]  TV show（韩剧，单剧非剧集连载部分） 网盘与密码解析完成 [// Done 2017.11.15](https://github.com/MrLevo520/SeeMoreM.T/blob/master/CodesModule/getUrlPw.py)
     - [x] 美剧，英剧等多剧集连载部分网盘与密码解析完成[// Done 2017.11.17](https://github.com/MrLevo520/SeeMoreM.T/blob/master/CodesModule/getUrlPw.py)
-    - [ ] 未知剧种类 网盘与密码解析完成
+    - [x] 未知剧种类 网盘与密码解析完成[// Done 2017.11.20](https://github.com/MrLevo520/SeeMoreM.T/blob/master/CodesModule/getUrlPw.py)
     - [ ] what's more？
 
 - GUI搭建部分
@@ -65,7 +65,7 @@
 - 修复各种乱七八糟的bugs
 
   - [x] selenium 获取不到指定标签下的文本 [// Done 2017.11.15](https://github.com/MrLevo520/SeeMoreM.T/blob/master/CodesModule/getUrlPw.py)
-  - [ ] 查询时并非跳转页面后的首选项是目标文件，需要改进查询精确匹配
+  - [x] 查询时并非跳转页面后的首选项是目标文件，需要改进查询精确匹配[// Done 2017.11.20](https://github.com/MrLevo520/SeeMoreM.T/blob/master/CodesModule/getUrlPw.py)
   - [ ] what's more？
 
 
@@ -73,6 +73,7 @@
 
 - 第一次更新：2017.11.15
 - 第二次更新：2017.11.17
+- 第三次更新：2017.11.20 增加单元测试的UnitTest.ipynb文件作为调试记录
 
 
 ### 最后
