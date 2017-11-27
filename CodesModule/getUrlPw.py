@@ -3,7 +3,8 @@
 # 测试页面：http://m.mei123478.com/
 # 页面描述：网盘链接和密码隐藏，所以第一步需要注入js进行显示，然后正常进行文本解析，因为字段比较简单，所以直接字符串解析了
 # 注意：使用phantomjs等待时间比较久,所以调试是一个比较累人的工作
-# 2017.11.20：修复多值检索项的匹配问题
+# 2017.11.20: 修复多值检索项的匹配问题
+# 2017.11.27: 重构检索结构
 
 from selenium import webdriver
 from selenium.webdriver.support.select import Select
@@ -13,7 +14,7 @@ import urllib
 def getUP(searchKey):
     '''
     Input:searchKey u'生活大爆炸'
-    Return: {searchKey:[(link,password),]}
+    Return: {searchKey:[(introword,link,password),]}
     
     '''
     url_main= 'http://m.mei123478.com/?s='
@@ -54,6 +55,7 @@ def getUP(searchKey):
             #print hide.text  # 度盘点我  密码: siua
             if 'http' in innerHtml:
                 url = innerHtml.split("href=\"")[-1].split("\">")[0]
+                introword = innerHtml.split("href=\"")[-1].split("\">")[-1].split("<")[0].strip()
                 #print url
                 if u'密码' in innerHtml:
                     pw = hide.text[-4:]
@@ -61,7 +63,7 @@ def getUP(searchKey):
                 else:
                     #print 'No Password,just watch'
                     pw = 'NoPW'
-                urlpw.append((url,pw))
+                urlpw.append((introword,url,pw))
 
         driver_detail.quit()
         return {searchKey:urlpw}
@@ -70,7 +72,7 @@ def getUP(searchKey):
 
 if __name__ == '__main__':
     
-    test = [u'美国恐怖故事',u'当你沉睡时', u'无耻之徒', u'healer',u'生活大爆炸']
+    test = [u'美国恐怖故事']#,u'当你沉睡时', u'无耻之徒',u'生活大爆炸']
     for i in test:
         urlpw = getUP(i)
         print urlpw
