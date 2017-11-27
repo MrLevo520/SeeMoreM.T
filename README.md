@@ -1,6 +1,6 @@
 ## 日常开发项目 - 打造自己的专属追剧看片app
 
-### 序
+### 序 
 
 > 介于[moviecatcher](https://github.com/MrLevo520/moviecatcher)因为索引网站的问题挂掉了，应该是全盘崩的状态，就看作者会不会去修复了，但里面的代码方式是可以借鉴的，套路都是一样的，介于大家对代码解读的难度和兴趣，我准备开启一个项目开发流程，从0开始，带大家最后完成一个整体项目，没有存稿，亚历山大，不过也算强迫自己进行额外学习了！项目会涉及网页解析，爬取，GUI构造，cookie登录等一些列的问题。希望共勉！
 
@@ -8,7 +8,7 @@
 
 ### 目的
 
-> 目前影视资源因为xx的原因，很难被大家在网上检索到，特别是需要xx会员等等，个人而言获取影视剧最多的途径是公共号，百度网盘保存什么的，***涉及到一些边缘地带，所以打枪的不要，悄悄地做技术就可以了！***，跑题了，简单说，就是，聚合~搜索~点击播放~提供下载~一步到位~看片不愁~嗯？
+> 目前影视资源因为xx的原因，很难被大家在网上检索到，特别是需要xx会员等等，个人而言获取影视剧最多的途径是公共号，百度网盘保存什么的，*** 涉及到一些边缘地带，所以打枪的不要，悄悄地做技术就可以了！ ***，跑题了，简单说，就是，聚合~搜索~点击播放~提供下载~一步到位~看片不愁~嗯？
 
 
 
@@ -42,6 +42,7 @@
     - [x]  TV show（韩剧，单剧非剧集连载部分） 网盘与密码解析完成 [// Done 2017.11.15](https://github.com/MrLevo520/SeeMoreM.T/blob/master/CodesModule/getUrlPw.py)
     - [x] 美剧，英剧等多剧集连载部分网盘与密码解析完成[// Done 2017.11.17](https://github.com/MrLevo520/SeeMoreM.T/blob/master/CodesModule/getUrlPw.py)
     - [x] 未知剧种类 网盘与密码解析完成[// Done 2017.11.20](https://github.com/MrLevo520/SeeMoreM.T/blob/master/CodesModule/getUrlPw.py)
+    - [x] 重构结果文件完成[// Done 2017.11.27](https://github.com/MrLevo520/SeeMoreM.T/blob/master/CodesModule/getUrlPw.py)
     - [ ] what's more？
 
 - GUI搭建部分
@@ -74,6 +75,7 @@
 - 第一次更新：2017.11.15
 - 第二次更新：2017.11.17
 - 第三次更新：2017.11.20 增加单元测试的UnitTest.ipynb文件作为调试记录
+- 第四次更新：2017.11.27 重构网页结果解析文件，btw，happy birthday to me
 
 
 ### 最后
